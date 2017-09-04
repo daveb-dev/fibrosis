@@ -1,0 +1,19 @@
+# Simulation parameters for stokes_main.py
+# units are expected in CGS
+
+num:    # Numerical parameters
+    krylov: 
+        - 'mumps'                       # Krylov solver settings
+        - 'none'                        # Preconditioner (use 'none' to not use preconditioner)
+    dry: False                          # Dry run for precompiling forms
+
+phys:   # Physical parameters
+    mu: 0.035                           # dynamic viscocity
+    g_inx: 1                            # Neumann x component of boundary condition over gamma_inlet
+
+io:     # Input/output parameters
+    # mesh file
+    mesh: './meshes/CVV_60_h1.h5'
+    # results directory
+    results: './results_stokes' #/test_functions/stokes_h1'
+    vtk: 1                             # boolean for enable/disable vtk output

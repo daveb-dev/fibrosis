@@ -1,0 +1,28 @@
+# Simulation parameters for bloch.py
+# units are expected in seconds and millimeters
+
+num:    # Numerical parameters
+    deg: 1              # degree of FEM elements
+    dt: 0.0001          # time step of implicite solver
+    krylov:             # Krylov solver settings
+        - 'cg'          # LS solver
+        - 'hypre_amg'   # preconditioner
+    dry: False          # dry run for precompiling forms
+
+phys:   # Physical parameters        
+    b: [0, 50, 100, 250, 500, 750, 1000]  # b values
+    pseq:               # Pulse sequence
+        f: !!python/name:functions.pulse_sequences.PGSE      # Function of temporal pulse profile
+        dt: [0.05, 0.05]           # Duration gradient lobe & Start time of inverse lobe
+        dir: [1., 0., 0.]   # Direction of gradient
+    D: [0.0006, 0.00162]    # Diffusion coefficients of all subdomains
+
+io:     # Input/output parameters
+    mesh: './meshes/vx.h5'               # mesh file
+    results: './results/test_fn'     # results directory
+    vtk: 0                      # 3D VTK output of each time step
+    timeseries: 1               # time series of integrated signal (H5)
+    signal_TE: 1                # ouput of signal at echo time
+    signal_domain: 0.5          # integration domain for signal, (-x, +x)
+
+    

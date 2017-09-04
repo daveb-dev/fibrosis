@@ -1,0 +1,28 @@
+# python bin/cache
+*.pyc
+*.pdf.zpid
+_build
+_static
+_template
+__pycache__
+.cache
+
+# vim swap files
+.*.swp
+
+# VTK files
+*.vtk
+*.vtu
+*.pvtu
+*.pvd
+
+# mesh files
+meshes/*.xml
+meshes/*.xdmf
+meshes/*.msh
+meshes/*.mesh
+meshes/*.h5
+
+# slurm output files
+*.err
+*.out

@@ -1,0 +1,19 @@
+# Simulation parameters for navier_stokes_main.py
+# units are expected in CGS
+
+num:    # Numerical parameters
+    dry: False                  # dry run for precompiling forms
+    dt: 0.002
+    T: 0.5
+    # choose solver to be used (options: monolitic, monolitic_direct, chorin, LU, yosida, cristobal)
+    solver: 'monolitic_direct'
+    h: 0.05                     # element size (0.05, 0.06, 0.1, 0.2) in milimeters
+    coart: 60                   # coarctation level (60, 65, 70)
+    BDF_order: 1    
+phys:   # Physical parameters
+    mu: 0.035                   # dynamic viscocity
+    rho: 1                      # density
+
+io:     # Input/output parameters
+    # results directory
+    results: './results/Navier_Stokes/MIXED3'

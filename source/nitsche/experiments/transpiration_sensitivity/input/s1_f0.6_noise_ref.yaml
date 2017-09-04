@@ -1,0 +1,63 @@
+# Set of default parameters for steady Navier-Stokes
+# mesh:       './meshes/coarc2d_bl_Lc2_L5_f0.6_d0_ns1_h0.025.h5'
+mesh:       './meshes/coarc2d_Lc2_L5_f0.6_d0_ns1_h0.025.h5'
+load_data: True
+# data_file:  './experiments/transpiration_sensitivity/input/sol_ref_Re3500_coarc2d_bl_sc_f0.6_d0_ns1_h0.025.h5'
+data_file:  './experiments/transpiration_sensitivity/input/sol_ref_Re3500_coarc2d_Lc2_L5_f0.6_d0_ns1_h0.025.h5'
+rho:        1.0
+mu:         0.035
+
+# u* = u/umax, x* = x/R (R=1!, same grid), p*=p/(rho u**2)
+# --> Re = rho*umax/mu
+# "physical", but not correct here: Dh = 2*R, u_bulk = u_mean = 2./3*u_max
+# --> mu = 0.035 & U = 60 --> Re = 2285.714
+
+boundary_conditions: 
+    - id: 1
+      preset: 'inlet'
+      value: 
+          R: 1.0
+          U: 61.25
+      symmetric: True
+    - id: 2
+      preset: 'outlet'
+      value: 0.
+    - id: 3
+      preset: 'symmetry'
+      type: 'dirichlet'
+      method: 'essential'
+    - id: 4
+      preset: 'noslip'
+      value: [0., 0.]
+      method: 'essential'
+
+# solver setup
+elements:   'Mini'
+use_temam:  True
+backflowstab:
+    outlet: True
+    nitsche: 2    # (nitsche bnds) 0: None, 1: (u.n), 2: |u.n|_
+fix_pressure: False
+fix_pressure_point: [0., 0.]
+
+nitsche: 
+    method: 1      # 0: skew-symmetric, 1: positive (0 slightly faster conv?)
+    beta1: 1.e3
+    beta2: 0.1
+
+nonlinear:
+    method: 'snes'
+    maxit: 25
+    init_steps: 15 
+    use_aitken: 1   #  0: False, 1: Picard only, 2: all
+    report: 1       # 0: None, 1: residuals, 2: residuals and energy (inflow/driving/forcing via ESSENTIAL Dbcs!)
+    atol: 1.e-11    # note: dot required!!
+    rtol: 1.e-16
+    stol: 0.0
+
+linear:
+    method: 'mumps'
+
+
+    
+    

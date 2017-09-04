@@ -1,0 +1,18 @@
+# Simulation parameters for pressure_drop_main.py
+# units are expected in CGS
+
+num:
+    tau: 0.02                   # PC-MRI time sampling interval
+    T: 0.55                     # Total sampling time
+    sigma: 0                    # variance of the additive noise in the sample
+    h: 1                        # Space sampling length
+
+phys:
+    mu: 0.035
+    rho: 1
+
+io:
+    results: './results/pressure_drop'
+    measures: './results/measures'
+    test_functions: "./results/test_functions"
+    noise: 0 # true if the measures have noise

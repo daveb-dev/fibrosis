@@ -1,0 +1,16 @@
+# Parameters for add_gaussian_noise.py
+# units are expected in CGS
+
+num:    # Numerical parameters
+    dry: False                  # dry run for precompiling forms
+    dt: 0.002                    # time-sampling of input file
+    T: 0.59                      # total simulation time of input file
+    mu: 0                       # mean for gaussian noise. The standar deviation is calculated using the sample
+    noise_iterations: 1
+
+io:     # Input/output parameters
+    # mesh file
+    mesh:       './meshes/CVV_60_h1.h5'
+    # results directory
+    results:    './results/measures/h1/'
+    input_file: './results/measures/h1/velocity.h5'

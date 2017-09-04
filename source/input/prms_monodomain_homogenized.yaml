@@ -1,0 +1,61 @@
+# Simulation parameters for diffusion_main.py
+# units: 
+#       length: milimeters
+#       time: miliseconds
+
+num:    
+    # Numerical parameters
+    krylov: 
+        # Exact Problem
+        - 'cg'                      # linear solver
+        - 'amg'                     # Preconditioner (use 'none' to not use preconditioner)
+        # Homogenized Problem
+        - 'cg'                      # linear solver
+        - 'amg'                     # Preconditioner (use 'none' to not use preconditioner)
+    # time step... use 0.1 for minimal, 0.25 for FHN and 1 for diffusion 
+    # TODO: add this to the solver code, selecting dt according to reaction_model
+    dt: 0.5                          # time-step
+    T: 400.0                       # total simulation time [ms]
+
+io:
+    # results directory
+    results: './results/monodomain'
+
+mesh:
+    random:  1   # select 1 to activate randomly generated fibrosis
+    theta_c: 0.4 # just in case that random is set to 0, if not just pick any value, it wil not affect the rest of the code
+    theta_f: 0.5 # just in case that random is set to 0, if not ju    st pick any value, it wil not affect the rest of the code
+    a: 0.1
+    b: 1.0
+    base: 25.0
+    altura: 25.0
+    desp: 1.0
+    results: './meshes/'
+    lamination_direction_main:
+      - 0.0           # x
+      - 1.0           # y
+    lamination_direction_cross:
+      - 1.0           # x
+      - 0.0           # y
+    main_fiber_direction:
+      - 1.0           # x
+      - 0.0           # y
+    cross_fiber_direction:
+      - 0.0           # x
+      - 1.0           # y
+phys:
+    sigma_1: 0.1171
+    gamma: 4
+    betha: 5
+    # externak stimulus
+    estimulo_1:
+        - 1         # intensity
+        - 3         # duration
+        - 0         # delay from t = 0
+        - 2         # location
+    estimulo_2:
+        - 1         # intensity
+        - 3         # duration
+        - 200         # delay from t = 0
+        - 1         # location
+    reaction_model: 0 # 0 none, 1 FHN, 2 Minimal

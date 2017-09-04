@@ -1,0 +1,43 @@
+# Set of default parameters for steady Navier-Stokes
+mesh:       'cavity2d_h0.05.h5'    # in path ./meshes/
+rho:        1.0
+mu:         0.035
+
+boundary_conditions: 
+    - id: 1
+      preset: 'driven_lid'
+      type: 'dirichlet'
+      method: 'essential'
+      value: 
+          # R: 1.0
+          U: 35
+    - id: 2
+      preset: 'noslip'
+      value: [0., 0.]
+      method: 'essential'
+
+# solver setup
+elements:   'Mini'
+use_temam:  True
+backflowstab:
+    outlet: False
+    nitsche: 0    # (nitsche bnds) 0: None, 1: (u.n), 2: |u.n|_
+fix_pressure: True
+fix_pressure_point: [0., 0.]
+
+nonlinear:
+    method: 'snes'
+    maxit: 50
+    init_steps: 5
+    use_aitken: False
+    report: True
+    atol: 1.e-13    # note: dot required!!
+    rtol: 1.e-16
+    stol: 0.0
+
+linear:
+    method: 'mumps'
+
+
+    
+    

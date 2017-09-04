@@ -1,0 +1,37 @@
+#!/bin/bash
+#SBATCH --job-name=NSEfenics
+#SBATCH --partition=slims
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=5
+#SBATCH --exclusive
+#SBATCH --output=NSE_%j.out
+#SBATCH --error=NSE_%j.err
+#SBATCH --mail-user=dnolte@dim.uchile.cl
+#SBATCH --mail-type=ALL
+
+source $HOME/dev/fenics-1.6-intel/bin/env_fenics_run.sh
+
+cwd=$PWD
+cd /dev/shm   # necessary for h5py.File output
+mkdir -p meshes
+mkdir -p input
+cp ${cwd}/meshes/COARTED_60_h0.05.h5 /dev/shm/meshes/
+cp ${cwd}/input/prms_navier_stokes.yaml /dev/shm/input/
+
+echo "ls -l"
+ls -l
+echo "ls meshes"
+ls meshes
+echo "ls input"
+ls input
+
+# srun pew in fenics-1.6-intel python ${cwd}/poisson.py
+srun pew in fenics-1.6-intel python ${cwd}/navier_stokes_main.py
+
+cd -
+
+cp -r /dev/shm/results/Navier_Stokes ./results
+# Hacer BACKUP de los archivos de salida que se quieran conservar
+# Make sure to copy back ALL GENERATED FILES
+
+rm -rf /dev/shm/*

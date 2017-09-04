@@ -1,0 +1,107 @@
+# Set of default parameters for steady Navier-Stokes
+mesh:       './meshes/coarc2d_bl_Lc2_L6_f0.6_d0.1_ns1_h0.05.h5'
+rho:        1.0
+mu:         0.035
+
+# u* = u/umax, x* = x/R (R=1!, same grid), p*=p/(rho u**2)
+# --> Re = rho*umax/mu
+# "physical", but not correct here: Dh = 2*R, u_bulk = u_mean = 2./3*u_max
+# --> mu = 0.035 & U = 60 --> Re = 2285.714
+
+boundary_conditions: 
+    - id: 1
+      preset: 'inlet'
+      value: 
+          R: 0.9    # needs to be real (known) radius of mesh
+          U: 61.25
+      symmetric: True
+    - id: 2
+      preset: 'outlet'
+      value: 0.
+    - id: 3
+      preset: 'symmetry'
+      method: 'essential'
+    - id: 4
+      preset: 'navierslip_transpiration'
+      value:
+          gm: 1.
+          # R: 0.9        # if this is not set, R(x) is taken from geometry!!
+          dR: 0.1
+          beta: 1500.
+
+# solver setup
+elements:   'Mini'
+use_temam:  True
+backflowstab:
+    outlet: True
+    nitsche: 2    # (weak bnds) 0: None, 1: (u.n), 2: |u.n|_
+fix_pressure: False
+fix_pressure_point: [0., 0.]
+
+nitsche: 
+    method: 1      # 0: skew-symmetric, 1: positive (0 slightly faster conv?)
+    beta1: 820.
+    beta2: 0.
+
+
+estimation:
+    method: 'BFGS'          # BFGS, Powell, Nelder-mead, bruteforce, (gpyopt)
+    boundary_id: 0          # 0: all boundarys, else int or list of boundary ids
+    parameters:
+        inflow: 
+            use: 2      # 0, 1, 2; off, U only, U and dR
+            velocity:
+                xfun: 0     # 0, 1, 2; linear, exponential, tanh
+                x0: 60      # initial value(s) (NOT arg to xfun!!)
+                bounds:     # bounds (constraint, bruteforce or tanh)
+            dR:
+                use_slip: 0 # 1: use dR from slip BC, 0: use this
+                xfun: 1     # 0, 1, 2; linear, exponential, tanh
+                x0: 0.08     # initial value(s)
+                bounds:     # bounds (constraint, bruteforce or tanh)
+        navierslip:     # gamma/dR
+            use: 1      # 0, 1, 2; off, gamma direct, via dR
+            xfun: 1     # 0, 1, 2; linear, exponential, tanh
+            x0: 1.      # initial value
+            bounds:     # bounds (constraint, bruteforce or tanh)
+        transpiration:  # beta
+            use: 1      # 0, 1; off, on
+            xfun: 1     # 0, 1, 2; linear, exponential, tanh
+            x0: 1500    # initial value
+            bounds: [1250, 2200]     # bounds (constraint, bruteforce or tanh)
+    noise: 0.1              # intensity of Gaussian noise (fraction of u_max)
+    bfgs:
+        tol: 1.e-3
+        gtol:       # not used
+        eps:        # not used
+    gpyopt:
+        acq_type: 'EI'
+        model_type: 'GP'
+        max_iter: 100
+        max_time: 120
+    bruteforce:
+        numpts: 5
+        as_slice: 1     # T/F switch uses bounds/slice(a, b, step)
+    error: 'abs'    # 'abs', 'rel'
+    tikhonov: 0.
+    measurement: 
+        mesh: './meshes/coarc2d_Lc2_L6_f0.6_d0.1_ns1_h0.1.h5'
+        elements: 'P1'  # P1, P2
+
+nonlinear:
+    method: 'snes'
+    maxit: 35
+    init_steps: 15
+    init_atol: 1.e-2
+    use_aitken: 1   #  0: False, 1: Picard only, 2: all
+    report: 1       # 0: None, 1: residuals, 2: residuals and energy (inflow/driving/forcing via ESSENTIAL Dbcs!)
+    atol: 1.e-10    # note: dot required!!
+    rtol: 1.e-16
+    stol: 0.0
+
+linear:
+    method: 'mumps'
+
+
+    
+    

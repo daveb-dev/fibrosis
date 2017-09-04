@@ -1,0 +1,48 @@
+# Set of default parameters for steady Navier-Stokes
+mesh:       'bfs2d_h0.1.h5'    # in path ./meshes/
+rho:        1.0
+mu:         0.00333
+# mu:         0.001667        # Re = 400
+# mu:         0.0008333334    # Re = 800 case
+# Re = rho*ub*H/mu;     H = 1, ub = 2/3.
+
+boundary_conditions: 
+    - id: 1
+      preset: 'inlet'
+      type: 'dirichlet'
+      value: 
+          # R: 1.0
+          U: 1
+    - id: 2
+      preset: 'outlet'
+      value: 0.  # [0., 0.]
+    - id: 3
+      preset: 'noslip'
+      value: [0., 0.]
+      method: 'essential'
+
+# solver setup
+elements:   'Mini'
+use_temam:  True
+backflowstab:
+    outlet: True
+    nitsche: 0    # (nitsche bnds) 0: None, 1: (u.n), 2: |u.n|_
+fix_pressure: False
+fix_pressure_point: [-1., 0.]
+
+nonlinear:
+    method: 'snes'
+    maxit: 50
+    init_steps: 0
+    use_aitken: False        # FIXME: Aitken destroys Newton!!! doesnt even improve picard... bug or difficult case!?!?
+    report: True
+    atol: 1.e-13    # note: dot required!!
+    rtol: 1.e-16
+    stol: 0.0
+
+linear:
+    method: 'mumps'
+
+
+    
+    

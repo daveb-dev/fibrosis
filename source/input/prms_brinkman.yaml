@@ -1,0 +1,16 @@
+# Simulation parameters for stokes_main.py
+# units are expected in CGS
+
+num:    # Numerical parameters
+    krylov: 
+        - 'mumps'                       # Krylov solver settings
+        - 'none'                        # Preconditioner (use 'none' to not use preconditioner)
+    dry: False                          # Dry run for precompiling forms
+
+phys:   # Physical parameters
+    nu: 0.035                           # kinematic viscocity
+
+io:     # Input/output parameters
+    # length size of elements in the mesh
+    h: 1
+    

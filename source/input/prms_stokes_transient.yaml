@@ -1,0 +1,15 @@
+# Simulation parameters for stokes_main.py
+# units are expected in CGS
+
+num:    # Numerical parameters
+    dry: False                                  # dry run for precompiling forms
+    dt: 0.01
+    T: 50
+phys:   # Physical parameters
+    mu: 0.035                                   # dynamic viscocity
+    rho: 1                                      # density
+
+io:     # Input/output parameters
+    mesh: './meshes/aorta/cilindro_012.h5'     # mesh file
+    results: './results/stokes_tran'                                      # results directory
+    xdmf: 1                                                                     # boolean for unable/disable vtk output

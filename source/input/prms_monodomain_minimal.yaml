@@ -1,0 +1,80 @@
+# Simulation parameters for monodomain_minimal_main.py
+# units: 
+#       length: milimeters
+#       time: miliseconds
+
+num:    # Numerical parameters
+    deg: 1
+    krylov: 
+        # Exact Problem
+        - 'cg'                  # linear solver
+        - 'amg'                 # Preconditioner (use 'none' to not use preconditioner)
+        # Homogenized Problem
+        - 'cg'                  # linear solver
+        - 'amg'                 # Preconditioner (use 'none' to not use preconditioner)
+    dry: False                  # dry run for precompiling forms
+    dt: 0.1                     # time-step
+    T: 400                      # total simulation time [ms]
+
+phys:   # Physiological parameters
+    # Tissue for the simulation
+    #   -> Options: mid, endo, epi and atrial
+    part: 'epi'
+
+    # Fibrosis amount in the tissue:
+    #   -> high: theta_c = 0.4 and theta_f = 0.5
+    #   -> moderated theta_c = 0.2 and theta_f = 0.5
+    #   -> healthy theta_c = 0.0 and theta_f = 0.5
+    #   -> vertical_walls theta_c = 1 and theta_f = 0.05
+    amount_fibrosis: 'healthy'
+
+    # Diffusivity coefficient for main fiber
+    sigma_1: 0.1171    
+    # estimulus parameters
+    est1:
+        - 1.587                 # est1_intensity
+        - 0                     # est1_delay
+        - 3                     # est1_duration
+    est2:
+        - 0.0                 # est2_intensity
+        - 0.0                  # est2_delay
+        - 0.0                    # est2_duration
+    initial_conditions:
+        - 0.0                   # phi
+        - 1.0                   # r
+        - 1.0                   # w
+        - 0.0                   # s
+    betha: 5                   # sigma_c = 10^{-betha}*sigma_1 (sigma_c << sigma_1)
+    gamma: 4                    # sigma2 = sigma1/gamma (sigma2 is the diffusivity for cross fibers)
+    randomly_fibrosis: false    # to use randomly generated diffuse fibrosis
+geo:    # geometric parameters 
+    # Mesh size accordingly to the experiment: 
+    #   -> to debug code select "small" (10x10)
+    #   -> to test conduction velocity select "mid" (25x25)
+    #   -> to test spiral waves dynamics select "large" (80x80)
+    #   -> to .... "very_large" (300x300)
+    mesh_size: 'very_large'
+    
+    # TODO: to really parametrize laminations directions, is necesary to parametrize main and cross fiber directions too
+    lamination_direction_main:
+        - 0.0           # x
+        - 1.0           # y
+    lamination_direction_cross:
+        - 1.0           # x
+        - 0.0           # y
+    main_fiber_direction:
+        - 1.0           # x
+        - 0.0           # y
+    cross_fiber_direction:
+        - 0.0           # x
+        - 1.0           # y
+io:
+    # results directory
+    solve:
+        # true for solve exact problem
+        - true
+        # true for solve homogenized problem
+        - true
+    results: './results/monodomain'
+    # boolean for unable/disable xdmf output
+    xdmf: 1
