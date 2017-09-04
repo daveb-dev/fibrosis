@@ -1,0 +1,35 @@
+\select@language {english}
+\contentsline {section}{RESUMEN}{3}
+\contentsline {section}{ABSTRACT}{3}
+\contentsline {section}{\numberline {1}INTRODUCTION}{4}
+\contentsline {section}{\numberline {2}GOAL AND OBJECTIVES}{4}
+\contentsline {section}{\numberline {3}BASIC CONCEPTS ON CARDIAC ANATOMY AND ELECTROPHYSIOLOGY}{5}
+\contentsline {subsection}{\numberline {3.1}Cardiac Tissue Organization}{5}
+\contentsline {subsection}{\numberline {3.2}Action Potential}{7}
+\contentsline {subsection}{\numberline {3.3}Fibrosis}{8}
+\contentsline {section}{\numberline {4}MATHEMATICAL MODELS IN ELECTROPHYSIOLOGY}{8}
+\contentsline {subsection}{\numberline {4.1}Cardiac Cells Arrangement Models}{9}
+\contentsline {subsubsection}{\numberline {4.1.1}The Bi-Domain Model}{10}
+\contentsline {subsubsection}{\numberline {4.1.2}The Mono Domain Model}{11}
+\contentsline {subsection}{\numberline {4.2}Cellular Membrane Electrical Activity Models}{11}
+\contentsline {subsubsection}{\numberline {4.2.1}FitzHugh-Nagumo Model}{11}
+\contentsline {subsubsection}{\numberline {4.2.2}Minimal Ventricular Model}{12}
+\contentsline {subsection}{\numberline {4.3}Homogenization}{13}
+\contentsline {subsubsection}{\numberline {4.3.1}Homogenization Theorem for Diffusion Equations}{14}
+\contentsline {section}{\numberline {5}NUMERICAL EXPERIMENTS}{15}
+\contentsline {subsection}{\numberline {5.1}Experiment \# 0: Linear Diffusion}{15}
+\contentsline {subsection}{\numberline {5.2}Discretization of the Minimal model}{18}
+\contentsline {subsection}{\numberline {5.3}Discretization of the FHN model}{20}
+\contentsline {subsubsection}{\numberline {5.3.1}Stability Analysis}{20}
+\contentsline {subsubsection}{\numberline {5.3.2}Weak Form}{22}
+\contentsline {subsection}{\numberline {5.4}Experiment \# 1: Single Cell}{22}
+\contentsline {subsubsection}{\numberline {5.4.1}Results Using FHN Reaction Model:}{22}
+\contentsline {subsubsection}{\numberline {5.4.2}Results Using Minimal Reaction Model:}{23}
+\contentsline {subsection}{\numberline {5.5}Experiment \# 2: Tissue with High Fibrosis}{23}
+\contentsline {subsubsection}{\numberline {5.5.1}Results Using FHN Cell Model:}{23}
+\contentsline {subsubsection}{\numberline {5.5.2}Results Using Minimal Gating Variables Model:}{25}
+\contentsline {subsection}{\numberline {5.6}Experiment \# 3: Tissue with Stringy Fibrosis}{26}
+\contentsline {subsection}{\numberline {5.7}Experiment \# 4: Tissue with Randomly Generated Fibrosis}{27}
+\contentsline {subsubsection}{\numberline {5.7.1}Results Using FHN Reaction Model}{28}
+\contentsline {subsubsection}{\numberline {5.7.2}Results Using Minimal Reaction Model}{28}
+\contentsline {section}{\numberline {6}Conclusion and Perspectives}{30}

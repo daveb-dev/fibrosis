@@ -1,0 +1,55 @@
+\begin{thebibliography}{1}
+
+\bibitem{action-potential-figure}
+$https://commons.wikimedia.org/wiki/file:action\_potential.svg$.
+
+\bibitem{texas_inst}
+$http://www.texasheartinstitute.org/hic/anatomy/images/fig1\_crosslg.jpg$.
+
+\bibitem{shearstrain-fiberorientation}
+Covell~J.W. Arts~T., Costa~K.D. and McCuloch A.D.
+\newblock Relating myocardial laminar architecture to shear strain and muscle
+  fiber orientation.
+\newblock December 2000.
+
+\bibitem{Comtois2011IEEE}
+Philippe Comtois and Stanley Nattel.
+\newblock Interactions between cardiac fibrosis spatial pattern and ionic
+  remodeling on electrical wave propagation.
+\newblock In {\em Engineering in Medicine and Biology Society, EMBC, 2011
+  Annual International Conference of the IEEE}, pages 4669--4672. IEEE, 2011.
+
+\bibitem{Kawara2001Circ}
+Tokuhiro Kawara, Richard Derksen, Joris~R de~Groot, Ruben Coronel, Sara
+  Tasseron, Andr{\'e}~C Linnenbank, Richard~NW Hauer, Hans Kirkels, Michiel~J
+  Janse, and Jacques~MT de~Bakker.
+\newblock Activation delay after premature stimulation in chronically diseased
+  human myocardium relates to the architecture of interstitial fibrosis.
+\newblock {\em Circulation}, 104(25):3069--3075, 2001.
+
+\bibitem{Kirk2014pp}
+Nathan Kirk, Alan Benson, Christopher Goodyer, and Matthew Hubbard.
+\newblock A computational study of the effects of remodelled electrophysiology
+  and mechanics on initiation of ventricular fibrillation in human heart
+  failure.
+\newblock {\em arXiv preprint arXiv:1406.1701}, 2014.
+
+\bibitem{colli_franzone}
+G.~Savaré P.~Colli~Franzone.
+\newblock Degenerate evolution systems modeling the cardiac electric field at
+  micro and macroscopic level, evolution equations, semigroups and functional
+  analysis.
+\newblock 2002.
+
+\bibitem{electrofis}
+P.~C. Franzone L. F. Pavarino~S. Scacchi.
+\newblock Mathematical cardiac electrophysiology.
+\newblock Vol 2, 2014.
+
+\bibitem{TenTusscher2007Europace}
+Kirsten~HWJ Ten~Tusscher and Alexander~V Panfilov.
+\newblock Influence of diffuse fibrosis on wave propagation in human
+  ventricular tissue.
+\newblock {\em Europace}, 9(suppl 6):vi38--vi45, 2007.
+
+\end{thebibliography}

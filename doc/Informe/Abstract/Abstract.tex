@@ -1,0 +1,107 @@
+%
+%	SET ENVIROMENT FOR THESIS (PUCV) DOCUMENT
+%
+
+\documentclass[letterpaper]{article}     	    %articulo tamaño carta
+
+\usepackage{booktabs} 								  	%Tablas bonitas de libro 
+\usepackage[table,xcdraw]{xcolor} 					  	%tablas de latextable.com
+\usepackage{anysize} 								  	%Definir margenes a gusto
+\usepackage[english]{babel}				  				%Idioma						  
+\usepackage[utf8]{inputenc} 						  		%Tildes y eñes
+\usepackage{graphicx,epstopdf,pdfpages,float}		  	%Para poder insertar figuras, imagenes vectoriales, .pdf's y para fijar imagenes y tablas [H], resp.
+\usepackage{latexsym,amsmath,amssymb,amsfonts,dsfont} 	%Caracteres propios de matematica, como el simbolo de los Reales
+\usepackage{listings} 				                  	%Permite insertar codigos en C,MATLAB,ettc
+\usepackage{color}									  	%Colour Fonts and other related features
+\usepackage{multicol}[1999/05/25]					  	%Multiple Text Columns 	
+\usepackage{subfigure}								  	%Subfigures
+\usepackage{comment}
+
+% User-defined commands (macros)
+\providecommand{\abs}[1]{\lvert#1\rvert} 	  % Valor absoluto
+\providecommand{\norm}[1]{\lVert#1\rVert}	  % Norma
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Linea Horizontal Bonita
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\white}{\textcolor{white}}
+
+% =============================================
+% Customize section headers
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{12pt}{6pt}
+%\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+
+
+
+\newcommand{\ssection}[1]{\section[#1]{\fontsize{11}{12}\selectfont \centering #1}}
+% to count sections witouth number
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+%\newcommand\prefix@section{Section \thesection: }
+\newcommand\prefix@section{}
+\makeatother
+
+% =============================================
+% Customize headers
+\usepackage{fancyhdr} \setlength{\headheight}{40pt}
+%\rhead{} 
+\lhead{\begin{figure}[H]
+\includegraphics[height = 2 cm]{fig/logo_UCV}
+\end{figure}}	% izquierda arriba  
+%\chead{2}	% centro arriba
+%\lfoot{3}	% izquierda abajo
+%\cfoot{4}	% centro abajo
+%\rfoot{5}	% derecha abajo
+\renewcommand{\headrulewidth}{0pt} % grosor interfaz "header-documento"
+
+% =============================================
+% Other format options
+% define vertical spacing between text lines
+\usepackage{setspace}
+% define indent size
+\setlength\parindent{0cm}
+% define space bewteen paragraphs
+\setlength{\parskip}{6pt}
+% Tipo de letra, margenes y estilo de pagina
+%\renewcommand{\rmdefault}{phv} 		% Arial
+%\renewcommand{\sfdefault}{phv} 		% Arial
+%\usepackage[default]{gfsbodoni}		% Bodoni
+\usepackage{mathptmx}					% Times New Roman
+% Margenes: izquierda derecha arriba abajo
+\marginsize{2.5 cm}{4 cm}{0.65 cm}{2.5 cm}  	
+
+\begin{document}
+
+asdasd
+\newpage
+
+\ssection{ABSTRACT}
+
+Fibered materials often arises in different fields of the engineering practice. This usually implies the introduction of new material scales that can not be neglected in computational simulations.
+
+In particular, this text will be focused in the electro-physiologycal modeling of a cardiac fibrotic tissue, that can be threated like a fibered material. Note that the choose of this particular example does not limit the use of results and conclusions obtained in the document to other materials with similar nature.
+
+This text proposes a computationally efficient and realistic model for the electric potential propagation in cardiac tissues with different kinds and levels of fibrosis. The document starts with a brief fundamentals in anatomy, histology and electro-physiology, then in the following sections different models for the potential propagation in the heart's wall are explained. Next, some results of the homogenization theory are applied to the model in order to decrease the computational cost of the multi-scale problem. Finally, numerical verification and results are shown, with their respective discussion.
+
+\textbf{KEYWORDS:} \small{cardiac electrophysiology, homogenization, fibrosis.}
+
+
+\ssection{RESUMEN}
+
+Los materiales fibrados usualmente aparecen en distintos campos de la ingeniería. Esto suele implicar la introducción de nuevas escalas que no pueden ser despreciadas en la simulaciones. 
+
+En particular, este texto se centrará en la modelación electrofisiológica de tejidos cardíacos fibrosos. Es menester notar que la elección de este ejemplo en particular no limita el uso de los resultados y conclusiones de este documento, de manera que pueden ser fácilmente extrapolados a otros materiales de similares características.
+
+En resumen, el siguiente texto propone un modelo realista para la propagación del potencial eléctrico en tejidos cardiacos fibrosos. El documento comienza con un breve sumario sobre anatomía, histología y electro-fisiología. Luego, en las secciones siguientes se explican distintos modelos para la propagación de la corriente eléctrica en la pared del corazón. A continuación, se presenta la homogeneización del modelo multi-escala que constituye el tejido cardíaco fibroso, con el fin de reducir el costo computacional del mismo. Finalmente, se muestras distintos experimentos numéricos.
+
+\textbf{PALABRAS CLAVE:} \small{electrofisiología cardíaca, homogeneización, fibrosis.}
+
+
+\end{document}

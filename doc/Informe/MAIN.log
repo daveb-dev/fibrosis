@@ -1,0 +1,1820 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.21)  25 AUG 2016 10:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MAIN.tex
+(./MAIN.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks14
+\footnotemargin=\dimen103
+\c@pp@next@reset=\count87
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen104
+\lightrulewidth=\dimen105
+\cmidrulewidth=\dimen106
+\belowrulesep=\dimen107
+\belowbottomsep=\dimen108
+\aboverulesep=\dimen109
+\abovetopsep=\dimen110
+\cmidrulesep=\dimen111
+\cmidrulekern=\dimen112
+\defaultaddspace=\dimen113
+\@cmidla=\count88
+\@cmidlb=\count89
+\@aboverulesep=\dimen114
+\@belowrulesep=\dimen115
+\@thisruleclass=\count90
+\@lastruleclass=\count91
+\@thisrulewidth=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\everycr=\toks16
+\minrowclearance=\skip45
+)
+\rownum=\count93
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count94
+\U@D=\dimen119
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count95
+\calc@Bcount=\count96
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count97
+\calc@Cskip=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen124
+\AM@pageheight=\dimen125
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks20
+\c@AM@survey=\count98
+\AM@templatesizebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen126
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen127
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks24
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks25
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks26
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box32
+\lst@token=\toks28
+\lst@length=\count113
+\lst@currlwidth=\dimen135
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen138
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count120
+\mult@box=\box34
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count121
+\c@collectmore=\count122
+\doublecol@number=\count123
+\multicoltolerance=\count124
+\multicolpretolerance=\count125
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box35
+\last@line=\box36
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box37
+\mult@grightbox=\box38
+\mult@gfirstbox=\box39
+\mult@firstbox=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\c@columnbadness=\count126
+\c@finalcolumnbadness=\count127
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box58
+\colbreak@box=\box59
+\mc@col@check@num=\count128
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip54
+\subfigcapskip=\skip55
+\subfigcaptopadj=\dimen148
+\subfigbottomskip=\skip56
+\subfigcapmargin=\dimen149
+\subfiglabelskip=\skip57
+\c@subfigure=\count129
+\c@lofdepth=\count130
+\c@subtable=\count131
+\c@lotdepth=\count132
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip58
+\subfig@bottom=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks29
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip62
+\f@ncyO@elh=\skip63
+\f@ncyO@erh=\skip64
+\f@ncyO@olh=\skip65
+\f@ncyO@orh=\skip66
+\f@ncyO@elf=\skip67
+\f@ncyO@erf=\skip68
+\f@ncyO@olf=\skip69
+\f@ncyO@orf=\skip70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup7
+\symitalic=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/anysize/anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
+
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+\@Leftmargin=\dimen155
+\@Rightmargin=\dimen156
+\@Topmargin=\dimen157
+\@Bottommargin=\dimen158
+) (./MAIN.aux)
+\openout1 = `MAIN.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 83.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen159
+\scratchbox=\box61
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen160
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks31
+)
+\AtBeginShipoutBox=\box62
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+\c@lstlisting=\count139
+
+<./Portada/PORTADA.pdf, id=1, 614.295pt x 794.97pt>
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+
+<use ./Portada/PORTADA.pdf>
+Package pdftex.def Info: ./Portada/PORTADA.pdf used on input line 89.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+ <use ./Portada/PORTADA.pdf>
+Package pdftex.def Info: ./Portada/PORTADA.pdf used on input line 89.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<./Portada/PORTADA.pdf, id=4, page=1, 614.295pt x 794.97pt>
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+
+<use ./Portada/PORTADA.pdf, page 1>
+Package pdftex.def Info: ./Portada/PORTADA.pdf, page1 used on input line 89.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+ <use ./Portada/PORTADA.pdf, page 1>
+Package pdftex.def Info: ./Portada/PORTADA.pdf, page1 used on input line 89.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+
+<use ./Portada/PORTADA.pdf, page 1>
+Package pdftex.def Info: ./Portada/PORTADA.pdf, page1 used on input line 89.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+ <use ./Portada/PORTADA.pdf, page 1>
+Package pdftex.def Info: ./Portada/PORTADA.pdf, page1 used on input line 89.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./Portada/PORTADA.pdf Graphic file (type pdf)
+
+<use ./Portada/PORTADA.pdf, page 1>
+Package pdftex.def Info: ./Portada/PORTADA.pdf, page1 used on input line 89.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [1
+
+ <./Portada/PORTADA.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
+ (./MAIN.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 7.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 7.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 7.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 7.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.14006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.60007> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+ [1])
+\tf@toc=\write4
+\openout4 = `MAIN.toc'.
+
+ [2]
+<./Abstract/Abstract.pdf, id=32, 614.295pt x 794.97pt>
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+
+<use ./Abstract/Abstract.pdf>
+Package pdftex.def Info: ./Abstract/Abstract.pdf used on input line 110.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+ <use ./Abstract/Abstract.pdf>
+Package pdftex.def Info: ./Abstract/Abstract.pdf used on input line 110.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<./Abstract/Abstract.pdf, id=35, page=2, 614.295pt x 794.97pt>
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+
+<use ./Abstract/Abstract.pdf, page 2>
+Package pdftex.def Info: ./Abstract/Abstract.pdf, page2 used on input line 110.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+ <use ./Abstract/Abstract.pdf, page 2>
+Package pdftex.def Info: ./Abstract/Abstract.pdf, page2 used on input line 110.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+
+<use ./Abstract/Abstract.pdf, page 2>
+Package pdftex.def Info: ./Abstract/Abstract.pdf, page2 used on input line 110.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+ <use ./Abstract/Abstract.pdf, page 2>
+Package pdftex.def Info: ./Abstract/Abstract.pdf, page2 used on input line 110.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./Abstract/Abstract.pdf Graphic file (type pdf)
+
+<use ./Abstract/Abstract.pdf, page 2>
+Package pdftex.def Info: ./Abstract/Abstract.pdf, page2 used on input line 110.
+
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [3 <./Abstract/Abstract.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 130.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+ [4]
+(./CH1_Some_Basis_on_Anatomy_and_Electrophysiology.tex
+<fig/fundamentals-corazon.png, id=54, 479.54156pt x 538.26094pt>
+File: fig/fundamentals-corazon.png Graphic file (type png)
+
+<use fig/fundamentals-corazon.png>
+Package pdftex.def Info: fig/fundamentals-corazon.png used on input line 7.
+(pdftex.def)             Requested size: 152.09543pt x 170.71652pt.
+
+<fig/fundamentals-sistema_de_conduccion.png, id=56, 818.30719pt x 469.755pt>
+File: fig/fundamentals-sistema_de_conduccion.png Graphic file (type png)
+
+<use fig/fundamentals-sistema_de_conduccion.png>
+Package pdftex.def Info: fig/fundamentals-sistema_de_conduccion.png used on inp
+ut line 15.
+(pdftex.def)             Requested size: 297.3873pt x 170.71652pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+ [5 <./fig/fundamentals-corazon.png>] <fig/fundamentals-myocites.png, id=61, 49
+3.3632pt x 193.2018pt>
+File: fig/fundamentals-myocites.png Graphic file (type png)
+
+<use fig/fundamentals-myocites.png>
+Package pdftex.def Info: fig/fundamentals-myocites.png used on input line 27.
+(pdftex.def)             Requested size: 290.6376pt x 113.81102pt.
+
+<fig/fundamentals-gap_junctions.png, id=62, 277.035pt x 168.63pt>
+File: fig/fundamentals-gap_junctions.png Graphic file (type png)
+
+<use fig/fundamentals-gap_junctions.png>
+Package pdftex.def Info: fig/fundamentals-gap_junctions.png used on input line 
+34.
+(pdftex.def)             Requested size: 233.72234pt x 142.26378pt.
+ [6 <./fig/fundamentals-sistema_de_conduccion.png> <./fig/fundamentals-myocites
+.png> <./fig/fundamentals-gap_junctions.png>] <fig/fundamentals-direccionmiocit
+os.jpg, id=70, 1284.8pt x 1806.75pt>
+File: fig/fundamentals-direccionmiocitos.jpg Graphic file (type jpg)
+
+<use fig/fundamentals-direccionmiocitos.jpg>
+Package pdftex.def Info: fig/fundamentals-direccionmiocitos.jpg used on input l
+ine 48.
+(pdftex.def)             Requested size: 179.87077pt x 252.94327pt.
+
+<fig/fundamentals-action_potential.png, id=71, 523.20468pt x 416.30531pt>
+File: fig/fundamentals-action_potential.png Graphic file (type png)
+
+<use fig/fundamentals-action_potential.png>
+Package pdftex.def Info: fig/fundamentals-action_potential.png used on input li
+ne 56.
+(pdftex.def)             Requested size: 250.3131pt x 199.16928pt.
+ [7 <./fig/fundamentals-direccionmiocitos.jpg>]
+<fig/fundamentals-fib-stringy.png, id=75, 151.16475pt x 149.96025pt>
+File: fig/fundamentals-fib-stringy.png Graphic file (type png)
+
+<use fig/fundamentals-fib-stringy.png>
+Package pdftex.def Info: fig/fundamentals-fib-stringy.png used on input line 73
+.
+(pdftex.def)             Requested size: 143.41193pt x 142.26378pt.
+
+<fig/fundamentals-fib-patchy.png, id=76, 145.14224pt x 152.36925pt>
+File: fig/fundamentals-fib-patchy.png Graphic file (type png)
+
+<use fig/fundamentals-fib-patchy.png>
+Package pdftex.def Info: fig/fundamentals-fib-patchy.png used on input line 77.
+
+(pdftex.def)             Requested size: 135.52347pt x 142.26378pt.
+
+<fig/fundamentals-fib-diffuse.png, id=77, 152.9715pt x 154.176pt>
+File: fig/fundamentals-fib-diffuse.png Graphic file (type png)
+
+<use fig/fundamentals-fib-diffuse.png>
+Package pdftex.def Info: fig/fundamentals-fib-diffuse.png used on input line 81
+.
+(pdftex.def)             Requested size: 141.15561pt x 142.26378pt.
+
+<fig/fundamentals-fib-midvsdensity.png, id=78, 596.98032pt x 369.63094pt>
+File: fig/fundamentals-fib-midvsdensity.png Graphic file (type png)
+
+<use fig/fundamentals-fib-midvsdensity.png>
+Package pdftex.def Info: fig/fundamentals-fib-midvsdensity.png used on input li
+ne 89.
+(pdftex.def)             Requested size: 229.7607pt x 142.26378pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+)
+(./CH2_Mathematical_Models_and_Homogenization.tex [8 <./fig/fundamentals-action
+_potential.png>]
+Overfull \vbox (4.02925pt too high) has occurred while \output is active []
+
+
+[9 <./fig/fundamentals-fib-stringy.png> <./fig/fundamentals-fib-patchy.png> <./
+fig/fundamentals-fib-diffuse.png> <./fig/fundamentals-fib-midvsdensity.png>]
+<fig/cable_model.png, id=91, 666.23906pt x 353.82187pt>
+File: fig/cable_model.png Graphic file (type png)
+
+<use fig/cable_model.png>
+Package pdftex.def Info: fig/cable_model.png used on input line 17.
+(pdftex.def)             Requested size: 233.18716pt x 123.83951pt.
+ [10 <./fig/cable_model.png>] [11] [12] [13]
+<fig/theorem_verification_r1-ejemplo_laminaciones.png, id=109, 348.55219pt x 32
+9.73187pt>
+File: fig/theorem_verification_r1-ejemplo_laminaciones.png Graphic file (type p
+ng)
+ <use fig/theorem_verification_r1-ejemplo_laminaciones.png>
+Package pdftex.def Info: fig/theorem_verification_r1-ejemplo_laminaciones.png u
+sed on input line 209.
+(pdftex.def)             Requested size: 150.38507pt x 142.26378pt.
+
+<fig/theorem_verification_r2-geometry_convention.png, id=110, 458.46281pt x 168
+.63pt>
+File: fig/theorem_verification_r2-geometry_convention.png Graphic file (type pn
+g)
+ <use fig/theorem_verification_r2-geometry_convention.png>
+Package pdftex.def Info: fig/theorem_verification_r2-geometry_convention.png us
+ed on input line 221.
+(pdftex.def)             Requested size: 386.78506pt x 142.26378pt.
+ [14 <./fig/theorem_verification_r1-ejemplo_laminaciones.png>])
+(./CH3_Numerical_Experiments.tex [15 <./fig/theorem_verification_r2-geometry_co
+nvention.png>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/Verificacion_Teorema/geometry.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<fig/Verificacion_Teorema/geometry.pdf, id=118, 597.50786pt x 845.04686pt>
+File: fig/Verificacion_Teorema/geometry.pdf Graphic file (type pdf)
+
+<use fig/Verificacion_Teorema/geometry.pdf>
+Package pdftex.def Info: fig/Verificacion_Teorema/geometry.pdf used on input li
+ne 41.
+(pdftex.def)             Requested size: 153.6447pt x 464.36441pt.
+
+Overfull \hbox (35.01231pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+[16 <./fig/Verificacion_Teorema/geometry.pdf>]
+<fig/Verificacion_Teorema/comparison_MEJORAR_SI_ALCANZO.png, id=135, 821.31844p
+t x 641.39626pt>
+File: fig/Verificacion_Teorema/comparison_MEJORAR_SI_ALCANZO.png Graphic file (
+type png)
+
+<use fig/Verificacion_Teorema/comparison_MEJORAR_SI_ALCANZO.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/comparison_MEJORAR_SI_ALCANZO
+.png used on input line 57.
+(pdftex.def)             Requested size: 163.94746pt x 128.0374pt.
+
+<fig/Verificacion_Teorema/20.png, id=136, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/20.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/20.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/20.png used on input line 66.
+
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/250.png, id=138, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/250.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/250.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/250.png used on input line 67
+.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/500.png, id=140, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/500.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/500.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/500.png used on input line 68
+.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/700.png, id=142, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/700.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/700.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/700.png used on input line 69
+.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/20h.png, id=144, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/20h.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/20h.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/20h.png used on input line 70
+.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/250h.png, id=146, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/250h.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/250h.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/250h.png used on input line 7
+1.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/500h.png, id=148, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/500h.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/500h.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/500h.png used on input line 7
+2.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/700h.png, id=150, 1003.75pt x 1003.75pt>
+File: fig/Verificacion_Teorema/700h.png Graphic file (type png)
+
+<use fig/Verificacion_Teorema/700h.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/700h.png used on input line 7
+3.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Verificacion_Teorema/colourbar_diffusion.png, id=152, 388.45125pt x 42.910
+31pt>
+File: fig/Verificacion_Teorema/colourbar_diffusion.png Graphic file (type png)
+ <use fig/Verificacion_Teorema/colourbar_diffusion.png>
+Package pdftex.def Info: fig/Verificacion_Teorema/colourbar_diffusion.png used 
+on input line 75.
+(pdftex.def)             Requested size: 180.29602pt x 19.91684pt.
+Package epstopdf Info: Source file: <fig/Verificacion_Teorema/error_L2.eps>
+(epstopdf)                    date: 2016-07-18 15:55:12
+(epstopdf)                    size: 26540 bytes
+(epstopdf)             Output file: <fig/Verificacion_Teorema/error_L2-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2016-07-18 15:55:54
+(epstopdf)                    size: 10416 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Verificacion_Teorema/e
+rror_L2-eps-converted-to.pdf fig/Verificacion_Teorema/error_L2.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Verificacion_Teorema/error_L2-eps-converted-to.pdf, id=153, 386.44376pt x 
+312.16624pt>
+File: fig/Verificacion_Teorema/error_L2-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use fig/Verificacion_Teorema/error_L2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Verificacion_Teorema/error_L2-eps-converted-to.pdf
+ used on input line 91.
+(pdftex.def)             Requested size: 176.11522pt x 142.26378pt.
+
+[17 <./fig/Verificacion_Teorema/comparison_MEJORAR_SI_ALCANZO.png>] [18 <./fig/
+Verificacion_Teorema/20.png (PNG copy)> <./fig/Verificacion_Teorema/250.png (PN
+G copy)> <./fig/Verificacion_Teorema/500.png (PNG copy)> <./fig/Verificacion_Te
+orema/700.png (PNG copy)> <./fig/Verificacion_Teorema/20h.png (PNG copy)> <./fi
+g/Verificacion_Teorema/250h.png (PNG copy)> <./fig/Verificacion_Teorema/500h.pn
+g (PNG copy)> <./fig/Verificacion_Teorema/700h.png (PNG copy)> <./fig/Verificac
+ion_Teorema/colourbar_diffusion.png> <./fig/Verificacion_Teorema/error_L2-eps-c
+onverted-to.pdf>] [19] [20] [21]
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex1/EX1-FHN_sing
+le_cell.eps>
+(epstopdf)                    date: 2016-07-06 13:17:11
+(epstopdf)                    size: 31221 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex1/EX1-FHN_sing
+le_cell-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-06 13:23:00
+(epstopdf)                    size: 18782 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex1/EX1-FHN_single_cell-eps-converted-to.pdf fig/Numerical_Experiments/ex1/EX1-
+FHN_single_cell.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex1/EX1-FHN_single_cell-eps-converted-to.pdf, id=185
+, 578.16pt x 433.62pt>
+File: fig/Numerical_Experiments/ex1/EX1-FHN_single_cell-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use fig/Numerical_Experiments/ex1/EX1-FHN_single_cell-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex1/EX1-FHN_single_cell-eps-
+converted-to.pdf used on input line 278.
+(pdftex.def)             Requested size: 227.62523pt x 170.71652pt.
+
+[22 <./fig/Numerical_Experiments/ex1/EX1-FHN_single_cell-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex1/ex1_min_epi.
+eps>
+(epstopdf)                    date: 2016-07-06 14:05:12
+(epstopdf)                    size: 103956 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex1/ex1_min_epi-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-06 14:07:13
+(epstopdf)                    size: 29338 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex1/ex1_min_epi-eps-converted-to.pdf fig/Numerical_Experiments/ex1/ex1_min_epi.
+eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex1/ex1_min_epi-eps-converted-to.pdf, id=224, 429.60
+5pt x 339.2675pt>
+File: fig/Numerical_Experiments/ex1/ex1_min_epi-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use fig/Numerical_Experiments/ex1/ex1_min_epi-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex1/ex1_min_epi-eps-converte
+d-to.pdf used on input line 308.
+(pdftex.def)             Requested size: 142.26378pt x 112.34688pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex1/ex1_min_endo
+.eps>
+(epstopdf)                    date: 2016-07-06 14:05:33
+(epstopdf)                    size: 103584 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex1/ex1_min_endo
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-06 14:08:16
+(epstopdf)                    size: 28822 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex1/ex1_min_endo-eps-converted-to.pdf fig/Numerical_Experiments/ex1/ex1_min_end
+o.eps>
+(epstopdf)             \includegraphics on input line 310.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex1/ex1_min_endo-eps-converted-to.pdf, id=225, 429.6
+05pt x 339.2675pt>
+File: fig/Numerical_Experiments/ex1/ex1_min_endo-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use fig/Numerical_Experiments/ex1/ex1_min_endo-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex1/ex1_min_endo-eps-convert
+ed-to.pdf used on input line 310.
+(pdftex.def)             Requested size: 142.26378pt x 112.34688pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex1/ex1_min_mid.
+eps>
+(epstopdf)                    date: 2016-07-06 14:05:46
+(epstopdf)                    size: 103048 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex1/ex1_min_mid-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-06 14:08:16
+(epstopdf)                    size: 36084 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex1/ex1_min_mid-eps-converted-to.pdf fig/Numerical_Experiments/ex1/ex1_min_mid.
+eps>
+(epstopdf)             \includegraphics on input line 312.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex1/ex1_min_mid-eps-converted-to.pdf, id=226, 421.57
+5pt x 316.18124pt>
+File: fig/Numerical_Experiments/ex1/ex1_min_mid-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use fig/Numerical_Experiments/ex1/ex1_min_mid-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex1/ex1_min_mid-eps-converte
+d-to.pdf used on input line 312.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex1/ex1_min_atri
+al.eps>
+(epstopdf)                    date: 2016-07-06 14:03:53
+(epstopdf)                    size: 104461 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex1/ex1_min_atri
+al-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-06 14:08:17
+(epstopdf)                    size: 36628 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex1/ex1_min_atrial-eps-converted-to.pdf fig/Numerical_Experiments/ex1/ex1_min_a
+trial.eps>
+(epstopdf)             \includegraphics on input line 314.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex1/ex1_min_atrial-eps-converted-to.pdf, id=227, 421
+.575pt x 316.18124pt>
+File: fig/Numerical_Experiments/ex1/ex1_min_atrial-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use fig/Numerical_Experiments/ex1/ex1_min_atrial-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex1/ex1_min_atrial-eps-conve
+rted-to.pdf used on input line 314.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+
+<fig/Numerical_Experiments/ex2/FHN/100.png, id=228, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/FHN/100.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/FHN/100.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/100.png used on inpu
+t line 332.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/FHN/250.png, id=230, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/FHN/250.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/FHN/250.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/250.png used on inpu
+t line 333.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/FHN/390.png, id=232, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/FHN/390.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/FHN/390.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/390.png used on inpu
+t line 334.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/FHN/100h.png, id=234, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/FHN/100h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/FHN/100h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/100h.png used on inp
+ut line 335.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/FHN/250h.png, id=236, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/FHN/250h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/FHN/250h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/250h.png used on inp
+ut line 336.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/FHN/390h.png, id=238, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/FHN/390h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/FHN/390h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/390h.png used on inp
+ut line 337.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/colourbar_FHN.png, id=240, 549.05125pt x 70.2625pt>
+File: fig/Numerical_Experiments/colourbar_FHN.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/colourbar_FHN.png>
+Package pdftex.def Info: fig/Numerical_Experiments/colourbar_FHN.png used on in
+put line 339.
+(pdftex.def)             Requested size: 200.09625pt x 25.6073pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex2/FHN/error_L2
+.eps>
+(epstopdf)                    date: 2016-07-19 02:13:59
+(epstopdf)                    size: 21896 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex2/FHN/error_L2
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 02:14:39
+(epstopdf)                    size: 9054 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex2/FHN/error_L2-eps-converted-to.pdf fig/Numerical_Experiments/ex2/FHN/error_L
+2.eps>
+(epstopdf)             \includegraphics on input line 345.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex2/FHN/error_L2-eps-converted-to.pdf, id=241, 373.3
+95pt x 271.0125pt>
+File: fig/Numerical_Experiments/ex2/FHN/error_L2-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use fig/Numerical_Experiments/ex2/FHN/error_L2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/FHN/error_L2-eps-convert
+ed-to.pdf used on input line 345.
+(pdftex.def)             Requested size: 196.01251pt x 142.26378pt.
+ [23]
+[24 <./fig/Numerical_Experiments/ex2/FHN/100.png (PNG copy)> <./fig/Numerical_E
+xperiments/ex2/FHN/250.png (PNG copy)> <./fig/Numerical_Experiments/ex2/FHN/390
+.png (PNG copy)> <./fig/Numerical_Experiments/ex2/FHN/100h.png (PNG copy)> <./f
+ig/Numerical_Experiments/ex2/FHN/250h.png (PNG copy)> <./fig/Numerical_Experime
+nts/ex2/FHN/390h.png (PNG copy)> <./fig/Numerical_Experiments/ex1/ex1_min_epi-e
+ps-converted-to.pdf> <./fig/Numerical_Experiments/ex1/ex1_min_endo-eps-converte
+d-to.pdf> <./fig/Numerical_Experiments/ex1/ex1_min_mid-eps-converted-to.pdf> <.
+/fig/Numerical_Experiments/ex1/ex1_min_atrial-eps-converted-to.pdf> <./fig/Nume
+rical_Experiments/colourbar_FHN.png>]
+<fig/Numerical_Experiments/ex2/MINIMAL/3.png, id=276, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/3.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/3.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/3.png used on in
+put line 358.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/MINIMAL/15.png, id=278, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/15.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/15.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/15.png used on i
+nput line 359.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/MINIMAL/30.png, id=280, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/30.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/30.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/30.png used on i
+nput line 360.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/MINIMAL/3h.png, id=282, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/3h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/3h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/3h.png used on i
+nput line 361.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/MINIMAL/15h.png, id=284, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/15h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/15h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/15h.png used on 
+input line 362.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex2/MINIMAL/30h.png, id=286, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/30h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/30h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/30h.png used on 
+input line 363.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+File: fig/Numerical_Experiments/colourbar_FHN.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/colourbar_FHN.png>
+Package pdftex.def Info: fig/Numerical_Experiments/colourbar_FHN.png used on in
+put line 364.
+(pdftex.def)             Requested size: 200.09625pt x 25.6073pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex2/MINIMAL/erro
+r_L2.eps>
+(epstopdf)                    date: 2016-08-03 20:21:10
+(epstopdf)                    size: 20952 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex2/MINIMAL/erro
+r_L2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-03 20:24:35
+(epstopdf)                    size: 9057 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex2/MINIMAL/error_L2-eps-converted-to.pdf fig/Numerical_Experiments/ex2/MINIMAL
+/error_L2.eps>
+(epstopdf)             \includegraphics on input line 373.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex2/MINIMAL/error_L2-eps-converted-to.pdf, id=288, 3
+80.42125pt x 296.10625pt>
+File: fig/Numerical_Experiments/ex2/MINIMAL/error_L2-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use fig/Numerical_Experiments/ex2/MINIMAL/error_L2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/MINIMAL/error_L2-eps-con
+verted-to.pdf used on input line 373.
+(pdftex.def)             Requested size: 182.77426pt x 142.26378pt.
+
+[25 <./fig/Numerical_Experiments/ex2/MINIMAL/3.png (PNG copy)> <./fig/Numerical
+_Experiments/ex2/MINIMAL/15.png (PNG copy)> <./fig/Numerical_Experiments/ex2/MI
+NIMAL/30.png (PNG copy)> <./fig/Numerical_Experiments/ex2/MINIMAL/3h.png (PNG c
+opy)> <./fig/Numerical_Experiments/ex2/MINIMAL/15h.png (PNG copy)> <./fig/Numer
+ical_Experiments/ex2/MINIMAL/30h.png (PNG copy)> <./fig/Numerical_Experiments/e
+x2/FHN/error_L2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex2/cell_compari
+son.eps>
+(epstopdf)                    date: 2016-08-03 20:35:24
+(epstopdf)                    size: 47556 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex2/cell_compari
+son-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-03 20:36:51
+(epstopdf)                    size: 17674 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex2/cell_comparison-eps-converted-to.pdf fig/Numerical_Experiments/ex2/cell_com
+parison.eps>
+(epstopdf)             \includegraphics on input line 381.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex2/cell_comparison-eps-converted-to.pdf, id=303, 74
+6.79pt x 268.00125pt>
+File: fig/Numerical_Experiments/ex2/cell_comparison-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use fig/Numerical_Experiments/ex2/cell_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex2/cell_comparison-eps-conv
+erted-to.pdf used on input line 381.
+(pdftex.def)             Requested size: 476.07346pt x 184.9429pt.
+
+Overfull \hbox (46.72136pt too wide) in paragraph at lines 381--382
+ [][] 
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/Numerical_Experiments/ex3/geometr
+y.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+
+<fig/Numerical_Experiments/ex3/geometry.pdf, id=305, 597.50786pt x 845.04686pt>
+File: fig/Numerical_Experiments/ex3/geometry.pdf Graphic file (type pdf)
+<use fig/Numerical_Experiments/ex3/geometry.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex3/geometry.pdf used on inp
+ut line 392.
+(pdftex.def)             Requested size: 170.71652pt x 426.02066pt.
+ [26 <./fig/Numerical_Experiments/ex2/cell_comparison-eps-converted-to.pdf> <./
+fig/Numerical_Experiments/ex2/MINIMAL/error_L2-eps-converted-to.pdf>]
+<fig/Numerical_Experiments/ex3/ex3_colourbar.png, id=321, 522.95375pt x 62.2325
+pt>
+File: fig/Numerical_Experiments/ex3/ex3_colourbar.png Graphic file (type png)
+ <use fig/Numerical_Experiments/ex3/ex3_colourbar.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex3/ex3_colourbar.png used o
+n input line 400.
+(pdftex.def)             Requested size: 191.2795pt x 22.76228pt.
+
+<fig/Numerical_Experiments/ex3/results.png, id=322, 844.65562pt x 524.71031pt>
+File: fig/Numerical_Experiments/ex3/results.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex3/results.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex3/results.png used on inpu
+t line 401.
+(pdftex.def)             Requested size: 274.80626pt x 170.71652pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/Numerical_Experiments/ex4/geometr
+y.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+
+<fig/Numerical_Experiments/ex4/geometry.pdf, id=323, 597.50786pt x 845.04686pt>
+File: fig/Numerical_Experiments/ex4/geometry.pdf Graphic file (type pdf)
+<use fig/Numerical_Experiments/ex4/geometry.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/geometry.pdf used on inp
+ut line 413.
+(pdftex.def)             Requested size: 170.71652pt x 465.95757pt.
+
+Overfull \hbox (36.60547pt too wide) in paragraph at lines 413--414
+ [][] 
+ []
+
+[27 <./fig/Numerical_Experiments/ex3/geometry.pdf> <./fig/Numerical_Experiments
+/ex3/ex3_colourbar.png> <./fig/Numerical_Experiments/ex3/results.png>]
+<fig/Numerical_Experiments/ex4/FHN/100.png, id=342, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/100.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/100.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/100.png used on inpu
+t line 442.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/300.png, id=344, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/300.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/300.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/300.png used on inpu
+t line 443.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/500.png, id=346, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/500.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/500.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/500.png used on inpu
+t line 444.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/600.png, id=348, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/600.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/600.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/600.png used on inpu
+t line 445.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/100h.png, id=350, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/100h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/100h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/100h.png used on inp
+ut line 446.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/300h.png, id=352, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/300h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/300h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/300h.png used on inp
+ut line 447.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/500h.png, id=354, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/500h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/500h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/500h.png used on inp
+ut line 448.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/FHN/600h.png, id=356, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/FHN/600h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/FHN/600h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/600h.png used on inp
+ut line 449.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+File: fig/Numerical_Experiments/colourbar_FHN.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/colourbar_FHN.png>
+Package pdftex.def Info: fig/Numerical_Experiments/colourbar_FHN.png used on in
+put line 450.
+(pdftex.def)             Requested size: 200.09625pt x 25.6073pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex4/FHN/error_L2
+.eps>
+(epstopdf)                    date: 2016-08-07 00:04:25
+(epstopdf)                    size: 16642 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex4/FHN/error_L2
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-07 00:15:48
+(epstopdf)                    size: 6362 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex4/FHN/error_L2-eps-converted-to.pdf fig/Numerical_Experiments/ex4/FHN/error_L
+2.eps>
+(epstopdf)             \includegraphics on input line 458.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex4/FHN/error_L2-eps-converted-to.pdf, id=358, 392.4
+6625pt x 297.11pt>
+File: fig/Numerical_Experiments/ex4/FHN/error_L2-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use fig/Numerical_Experiments/ex4/FHN/error_L2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/FHN/error_L2-eps-convert
+ed-to.pdf used on input line 458.
+(pdftex.def)             Requested size: 187.93251pt x 142.26378pt.
+ [28 <./fig/Numerical_Experiments/ex4/geometry.pdf>] [29 <./fig/Numerical_Exper
+iments/ex4/FHN/100.png (PNG copy)> <./fig/Numerical_Experiments/ex4/FHN/300.png
+ (PNG copy)> <./fig/Numerical_Experiments/ex4/FHN/500.png (PNG copy)> <./fig/Nu
+merical_Experiments/ex4/FHN/600.png (PNG copy)> <./fig/Numerical_Experiments/ex
+4/FHN/100h.png (PNG copy)> <./fig/Numerical_Experiments/ex4/FHN/300h.png (PNG c
+opy)> <./fig/Numerical_Experiments/ex4/FHN/500h.png (PNG copy)> <./fig/Numerica
+l_Experiments/ex4/FHN/600h.png (PNG copy)> <./fig/Numerical_Experiments/ex4/FHN
+/error_L2-eps-converted-to.pdf>]
+<fig/Numerical_Experiments/ex4/MINIMAL/3.png, id=390, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/3.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/3.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/3.png used on in
+put line 471.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/10.png, id=392, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/10.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/10.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/10.png used on i
+nput line 472.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/20.png, id=394, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/20.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/20.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/20.png used on i
+nput line 473.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/35.png, id=396, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/35.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/35.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/35.png used on i
+nput line 474.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/3h.png, id=398, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/3h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/3h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/3h.png used on i
+nput line 475.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/10h.png, id=400, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/10h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/10h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/10h.png used on 
+input line 476.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/20h.png, id=402, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/20h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/20h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/20h.png used on 
+input line 477.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/35h.png, id=404, 1003.75pt x 1003.75pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/35h.png Graphic file (type png)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/35h.png>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/35h.png used on 
+input line 478.
+(pdftex.def)             Requested size: 85.35637pt x 85.35826pt.
+
+<fig/Numerical_Experiments/colourbar_MINIMAL.png, id=406, 546.04pt x 65.24374pt
+>
+File: fig/Numerical_Experiments/colourbar_MINIMAL.png Graphic file (type png)
+ <use fig/Numerical_Experiments/colourbar_MINIMAL.png>
+Package pdftex.def Info: fig/Numerical_Experiments/colourbar_MINIMAL.png used o
+n input line 479.
+(pdftex.def)             Requested size: 214.31284pt x 25.6073pt.
+Package epstopdf Info: Source file: <fig/Numerical_Experiments/ex4/MINIMAL/erro
+r_L2.eps>
+(epstopdf)                    date: 2016-08-05 16:23:05
+(epstopdf)                    size: 23151 bytes
+(epstopdf)             Output file: <fig/Numerical_Experiments/ex4/MINIMAL/erro
+r_L2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-05 16:24:46
+(epstopdf)                    size: 8772 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig/Numerical_Experiments/
+ex4/MINIMAL/error_L2-eps-converted-to.pdf fig/Numerical_Experiments/ex4/MINIMAL
+/error_L2.eps>
+(epstopdf)             \includegraphics on input line 486.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Numerical_Experiments/ex4/MINIMAL/error_L2-eps-converted-to.pdf, id=407, 3
+96.48125pt x 300.12125pt>
+File: fig/Numerical_Experiments/ex4/MINIMAL/error_L2-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use fig/Numerical_Experiments/ex4/MINIMAL/error_L2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Numerical_Experiments/ex4/MINIMAL/error_L2-eps-con
+verted-to.pdf used on input line 486.
+(pdftex.def)             Requested size: 187.94336pt x 142.26378pt.
+
+[30 <./fig/Numerical_Experiments/ex4/MINIMAL/3.png (PNG copy)> <./fig/Numerical
+_Experiments/ex4/MINIMAL/10.png (PNG copy)> <./fig/Numerical_Experiments/ex4/MI
+NIMAL/20.png (PNG copy)> <./fig/Numerical_Experiments/ex4/MINIMAL/35.png (PNG c
+opy)> <./fig/Numerical_Experiments/ex4/MINIMAL/3h.png (PNG copy)> <./fig/Numeri
+cal_Experiments/ex4/MINIMAL/10h.png (PNG copy)> <./fig/Numerical_Experiments/ex
+4/MINIMAL/20h.png (PNG copy)> <./fig/Numerical_Experiments/ex4/MINIMAL/35h.png 
+(PNG copy)> <./fig/Numerical_Experiments/colourbar_MINIMAL.png> <./fig/Numerica
+l_Experiments/ex4/MINIMAL/error_L2-eps-converted-to.pdf>]) (./MAIN.bbl [31])
+[32] (./MAIN.aux) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 96 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 7449 strings out of 493029
+ 111297 string characters out of 6136234
+ 188682 words of memory out of 5000000
+ 10669 multiletter control sequences out of 15000+600000
+ 53125 words of font info for 120 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,18n,43p,990b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on MAIN.pdf (33 pages, 5984295 bytes).
+PDF statistics:
+ 473 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 626 words of extra memory for PDF output out of 10000 (max. 10000000)
+

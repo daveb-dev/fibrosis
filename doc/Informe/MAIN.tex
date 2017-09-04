@@ -1,0 +1,150 @@
+%
+%	SET ENVIROMENT FOR THESIS (PUCV) DOCUMENT
+%
+
+%\documentclass[letterpaper, twoside]{article}     	    %articulo tamaño carta
+\documentclass[letterpaper, 11pt, twoside]{article}
+
+% when two side is active, use the following lines
+\raggedbottom
+\usepackage[bottom]{footmisc}
+
+\usepackage{booktabs} 								  	%Tablas bonitas de libro 
+\usepackage[table,xcdraw]{xcolor} 					  	%tablas de latextable.com
+\usepackage[english]{babel}				  				%Idioma						  
+\usepackage[utf8]{inputenc} 						  		%Tildes y eñes
+\usepackage{graphicx,epstopdf,pdfpages,float}		  	%Para poder insertar figuras, imagenes vectoriales, .pdf's y para fijar imagenes y tablas [H], resp.
+\usepackage{latexsym,amsmath,amssymb,amsfonts,dsfont} 	%Caracteres propios de matematica, como el simbolo de los Reales
+\usepackage{listings} 				                  	%Permite insertar codigos en C,MATLAB,ettc
+\usepackage{color}									  	%Colour Fonts and other related features
+\usepackage{multicol}[1999/05/25]					  	%Multiple Text Columns 	
+\usepackage{subfigure}								  	%Subfigures
+\usepackage{comment}
+
+% User-defined commands (macros)
+\providecommand{\abs}[1]{\lvert#1\rvert} 	  % Valor absoluto
+\providecommand{\norm}[1]{\lVert#1\rVert}	  % Norma
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Linea Horizontal Bonita
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\white}{\textcolor{white}}
+
+% =============================================
+% Customize section headers
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{12pt}{6pt}
+%\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\newcommand{\ssection}[1]{\section[#1]{\fontsize{11}{12}\selectfont \centering #1}}
+% to count sections witouth number
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+%\newcommand\prefix@section{Section \thesection: }
+\newcommand\prefix@section{}
+\makeatother
+
+% =============================================
+% Customize headers with fancy pagestyle
+\usepackage{fancyhdr} \setlength{\headheight}{40pt}
+%\rhead{} 
+\lhead{\begin{figure}[H]
+\includegraphics[height = 2 cm]{fig/logo_UCV}
+\end{figure}}	% izquierda arriba  
+%\chead{2}	% centro arriba
+%\lfoot{3}	% izquierda abajo
+%\cfoot{4}	% centro abajo
+%\rfoot{5}	% derecha abajo
+\renewcommand{\headrulewidth}{0pt} % grosor interfaz "header-documento"
+
+
+% =============================================
+% Other format options
+% define vertical spacing between text lines
+\usepackage{setspace}
+% define indent size
+\setlength\parindent{0cm}
+% define space bewteen paragraphs
+\setlength{\parskip}{6pt}
+% Tipo de letra, margenes y estilo de pagina
+%\renewcommand{\rmdefault}{phv} 		% Arial
+%\renewcommand{\sfdefault}{phv} 		% Arial
+%\usepackage[default]{gfsbodoni}		% Bodoni
+\usepackage{mathptmx}					% Times New Roman
+% Margenes: izquierda derecha arriba abajo
+\usepackage{anysize}
+\marginsize{4 cm}{2.5 cm}{0.65 cm}{2.5 cm}  	
+
+\begin{document}
+
+% =============================================
+% TITLE PAGE
+% Disable page-numbering for the titlepage
+\pagenumbering{gobble}
+\includepdf[pages=1]{./Portada/PORTADA.pdf}
+
+%==============================================
+
+% Re-enable page-numbering
+\pagenumbering{arabic}
+% Define vertical space for the rest of the document (equivalente a interlineado sencillo en Microsoft Word)
+\spacing{1}
+% Reset page counter in order to not consider the titlepage
+\setcounter{page}{1}
+% Set font size
+\fontsize{11}{12}\selectfont
+
+\tableofcontents
+\newpage
+
+% Consider abstract into table of contents
+\addcontentsline{toc}{section}{RESUMEN} 
+\addcontentsline{toc}{section}{ABSTRACT} 
+
+
+\includepdf[pages=2]{./Abstract/Abstract.pdf}
+
+\newpage
+
+\section{INTRODUCTION}
+
+In the human body under normal conditions, a self-regenerative process made by the organism  cells is done in order to repair cardiac cells regularly. Sometimes, the body overreact and as consequence produces an accumulation of connective tissue, consisting mostly collagen. This last can derive in fibrosis, which is in some conditions, a serious pathology because the normal conduction system of the heart may be altered, deriving in dyssynchrous heart failure and ventricular fibrillation (VF). Furthermore, ventricular fibrillation is the main cause of sudden cardiac arrhythmic death \cite{Myeburg_cardiac_sudden_death} in the United States, where heart failure accounts for over 280000 deaths each year \cite{American_heart_association_stathistics}. Therefore, the quantification of the relative amount of fibrotic tissue with respect to the healthy one may serve as an important biomarker for the assessment of cardiovascular risk.
+
+In order to understand and, eventually, treat the fibrosis in a correct way, a more rigorous approach must to be taken. Mathematical electro-physiology offer us a complete model of the bio-electric cardiac sources and conducting media that allow to derive the electric potential over the heart tissue. Additionaly, the fibrotic tissue is a fibered material that introduces two scales of interest: the mesoscopic scale, i.e., at the level of myocite arrays and collagen incrustations ($\approx 0.1~[mm]$), and the macroscopic scale at the tissue level ($\approx 1 ~[cm]$).
+
+To model the electric potential propagation over the tissue, we have to consider how the spatial distribution of the potential affect nearby cells, and how the cell itself respond to the stimulus. Typically, a reaction-diffusion model is used to achieve this. When ventricular fibrillation arises the normal sinus rhythm is disturbed when the same wavefronts continually re-excite the same tissue (re-entry); synchronous contraction of the ventricles is lost, circulation of the blood ceases and death occurs if normal sinus rhythm is not quickly restored. From the macroscopic point of view, this re-entry produced by the over stimulation of tissue generates electric potential spiral waves. Therefore, in order to diagnose a ventricular fibrillation by using only a computational simulation, the reaction-diffusion system has to reproduce well the spiral wave dynamics.
+
+Some studies reveals that exist a close relation between the cardiac fibrosis spatial pattern and the velocity propagation of the potential. Indeed, the so-called \textsl{fibrosis architecture}, i.e., the spatial distribution of collagen fibers, affects more the wave propagation pattern than the intensity of fibrosis itself. Actual studies try to consider this by using different methods. For example, some studies emulate various kinds of fibrosis by randomly shut-down cells, assigning a different dispersion parameter for each one. Nevertheless, this does not emulates the meso-scale correctly. In order to do that this text proposes to explicitly model the myocites fibers and the connective tissue, and then reduce the computational cost of this by using some results of homogenization theory.
+
+
+\section{GOAL AND OBJECTIVES}
+
+The final goal is to model the electric potential propagation in a human fibrotic heart tissue. In order to do this, the following particular goals has to be achieved too:
+
+\begin{itemize}
+\item Model the electric propagation trough a reaction-diffusion system by using the so-called \textsl{Monodomain Equations}.
+\item Compare different formulations for the reaction term in the Monodomain equations, such as Minimal and FitzHugh-Nagumo models.
+\item Reduce the computational cost of the simulation using some results of the homogenization theory, preserving the meso-scale propierties with a effective macroscopic diffusion tensor.
+\item Get homogenized electric potential fields over 2D domains that reproduce realistic conduction velocities.
+\item Asses the error due to the introduction of effective diffusion tensor.
+\item Simulate different spatial distributions of fibrosis, such as diffuse and stringy.
+\end{itemize}
+
+
+\input{CH1_Some_Basis_on_Anatomy_and_Electrophysiology.tex}
+
+\input{CH2_Mathematical_Models_and_Homogenization.tex}
+
+\input{CH3_Numerical_Experiments.tex}
+
+\bibliographystyle{plain}
+\bibliography{biblio_fibrosis}
+
+
+\end{document}
+\grid

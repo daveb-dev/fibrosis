@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%			Plantilla LaTex
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[letterpaper]{article} 			     	%articulo tamaño carta
+
+\usepackage{booktabs} 								  	%Tablas bonitas de libro 
+\usepackage[table,xcdraw]{xcolor} 					  	%tablas de latextable.com
+\usepackage{anysize} 								  	%Definir margenes a gusto
+\usepackage[english]{babel}				  				%Idioma						  
+\usepackage[utf8]{inputenc} 						  		%Tildes y eñes
+\usepackage{graphicx,epstopdf,pdfpages,float}		  	%Para poder insertar figuras, imagenes vectoriales, .pdf's y para fijar imagenes y tablas [H], resp.
+\usepackage{latexsym,amsmath,amssymb,amsfonts,dsfont} 	%Caracteres propios de matematica, como el simbolo de los Reales
+\usepackage{listings} 				                  	%Permite insertar codigos en C,MATLAB,ettc
+\usepackage{color}									  	%Colour Fonts and other related features
+\usepackage{multicol}[1999/05/25]					  	%Multiple Text Columns 	
+\usepackage{subfigure}								  	%Subfigures
+\usepackage{comment}
+
+% Tipo de letra, margenes y estilo de pagina
+%\renewcommand{\rmdefault}{phv} 		% Arial
+%\renewcommand{\sfdefault}{phv} 		% Arial
+%\usepackage[default]{gfsbodoni}		% Bodoni
+\usepackage{mathptmx}					% Times New Roman
+
+% Margenes: izquierda derecha arriba abajo
+\marginsize{3 cm}{3 cm}{2 cm}{2 cm}  	
+
+% Comandos definidos por usuario
+\providecommand{\abs}[1]{\lvert#1\rvert} 	  % Valor absoluto
+\providecommand{\norm}[1]{\lVert#1\rVert}	  % Norma
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Linea Horizontal Bonita
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\white}{\textcolor{white}}
+
+%Modifica encabezados de articulo (section, subsection, ettc)
+\usepackage{titlesec}
+
+\titleformat{\section}[block]
+{\normalfont\sffamily}
+{\thesection}{.5em}{\titlerule\\[.8ex]\bfseries}
+
+\titleformat{\subsection}[block]
+{\normalfont\sffamily}
+{\thesubsection \bfseries}{.5em}{\bfseries}
+
+\titleformat{\subsubsection}[block]
+{\normalfont\sffamily}
+{\thesubsubsection}{.5em}{\bfseries}
+
+% define indent size
+\setlength\parindent{0cm}
+
+%Permite personalizar estilos de cabecera y pié de página
+\usepackage{fancyhdr} \setlength{\headheight}{40pt} \pagestyle{fancy}
+%\rhead{} 
+\lhead{\begin{figure}[H]
+\includegraphics[height = 2 cm]{fig/logo_UCV}
+\end{figure}}	% izquierda arriba  
+%\chead{2}	% centro arriba
+%\lfoot{3}	% izquierda abajo
+%\cfoot{4}	% centro abajo
+%\rfoot{5}	% derecha abajo
+\renewcommand{\headrulewidth}{0pt} % grosor interfaz "header-documento"
+\pagenumbering{gobble} % Quita numeración de página
+
+\begin{document}
+
+% ========== 	TITLEPAGE 	==========   
+% Enable fancy style in order to configure headers
+\thispagestyle{fancy}
+% Disable page-numbering for the titlepage
+\pagenumbering{gobble}
+\fontsize{14}{12}\selectfont
+
+\vspace*{2 cm}
+\begin{center}
+\textbf{MODELACIÓN MATEMÁTICA Y SIMULACIÓN COMPUTACIONAL DE UN PROBLEMA MULTI-ESCALA: APLICACIÓN A PROCESOS DE DIFUSIÓN EN FIBRAS CARDÍACAS}
+\end{center}
+\vspace*{1 cm}
+\begin{center}
+\textbf{MATHEMATICAL MODELING AND COMPUTATIONAL SIMULATION OF A MULTI-SCALE PROBLEM: APPLICATION TO DIFFUSION PROCESSES IN CARDIAC FIBERS }
+\end{center}
+\fontsize{12}{12}\selectfont
+\vspace*{2 cm}
+\begin{center}
+FELIPE GALARCE
+\end{center}
+\vspace*{1 cm}
+\fontsize{11}{12}\selectfont
+\begin{center}
+COMISIÓN DE EVALUACIÓN:\\
+\vspace*{0.8 cm}
+PROFESOR GUÍA: JOAQUÍN MURA \\
+\vspace*{1 cm}
+PROFESOR CORREFERENTE: CRISTOBAL BERTOGLIO
+\fontsize{11}{12}\selectfont
+
+\vspace*{5.5 cm}
+FECHA: 24-08-2016 
+\end{center}
+\newpage
+
+
+
+\end{document}

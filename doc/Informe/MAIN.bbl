@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+
+\bibitem{BUENO_OROVIO_MINIMAL}
+Bueno-Orovio A., Cherry E.M., and Fenton F.H.
+\newblock Minimal model for human ventricular action potentials in tissue.
+\newblock {\em Journal of Theoretical Biology}, 253(3):544 -- 560, 2008.
+
+\bibitem{American_heart_association_stathistics}
+Lloyd-Jones D.
+\newblock Executive summary: Heart disease and stroke statistics - 2010 update,
+  2010.
+
+\bibitem{homogenization}
+Murat F. and Tartar L.
+\newblock Optimal design of three-dimensional axisymmetric elastic structures.
+\newblock {\em Structural and Multidisciplinary Optimization}, 12(1):35--45,
+  1978.
+
+\bibitem{MINIMAL_ATRIAL}
+Weber F.M., Lurz S., Keller D.U.J., Weiss D.L., Seemann G., Lorenz C., and
+  Dossel O.
+\newblock Adaptation of a minimal four-state cell model for reproducing atrial
+  excitation properties.
+\newblock In {\em Computers in Cardiology}, September 2008.
+
+\bibitem{GMSH}
+Geuzaine and Remacle J.F.
+\newblock Gmsh: a three-dimensional finite element mesh generator with built-in
+  pre- and post-processing facilities.
+\newblock {\em International Journal for Numerical Methods in Engineering},
+  79(11):1309--1331, 2009.
+
+\bibitem{Kawara2001Circ}
+Tokuhiro Kawara, Richard Derksen, Joris~R de~Groot, Ruben Coronel, Sara
+  Tasseron, Andr{\'e}~C Linnenbank, Richard~NW Hauer, Hans Kirkels, Michiel~J
+  Janse, and Jacques~MT de~Bakker.
+\newblock Activation delay after premature stimulation in chronically diseased
+  human myocardium relates to the architecture of interstitial fibrosis.
+\newblock {\em Circulation}, 104(25):3069--3075, 2001.
+
+\bibitem{FENICS}
+Alnæs M.S., Blechta J., Hake J., Johansson A., Kehlet B., Logg A., Richardson
+  C., Ring J., Rognes M.E., and Wells G.N.
+\newblock The fenics project version 1.5.
+\newblock {\em Archive of Numerical Software}, 3(100):9 -- 23, 2016.
+
+\bibitem{colli_franzone}
+Colli P. and Savaré G.
+\newblock {\em Degenerate evolution systems modeling the cardiac electric field
+  at micro and macroscopic level, evolution equations, semigroups and
+  functional analysis}.
+\newblock Springer edition, 2002.
+
+\bibitem{Comtois2011IEEE}
+Comtois P. and Nattel S.
+\newblock Interactions between cardiac fibrosis spatial pattern and ionic
+  remodeling on electrical wave propagation.
+\newblock In {\em Engineering in Medicine and Biology Society, EMBC, 2011
+  Annual International Conference of the IEEE}, pages 4669--4672, USA, 2011.
+  IEEE.
+
+\bibitem{electrofis}
+Franzone P.C., Pavarino L.F., and Scacchi S.
+\newblock {\em Mathematical Cardiac Electrophysiology}, volume~2.
+\newblock Springer edition, 2014.
+\newblock Italy.
+
+\bibitem{Myeburg_cardiac_sudden_death}
+Myerburg R.J., Kessler M., and Castellanos A.
+\newblock Sudden cardiac death: epidemiology, transient risk, and intervention
+  assessment.
+\newblock {\em Ann Intern Med}, 119(12):1187--1197, 1993.
+
+\end{thebibliography}
